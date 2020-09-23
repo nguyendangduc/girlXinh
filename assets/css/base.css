@@ -1,0 +1,38 @@
+:root {
+    --white-color: #eeeeee;
+    --black-color: black;
+    --text-color: rgb(51, 51, 51);
+    --header-height: 100px;
+    --header-left-bg-color: rgba(247, 239, 250, 0.5);
+    --header-right-bg-color:rgba(240, 239, 255, 0.5);
+    --page-no-1-color:rgba(122, 194, 230, 0.3);
+    --page-no-2-color:rgb(231, 136, 131, 0.3);
+    --page-no-3-color:rgb(98, 196, 185, 0.3);
+    --page-no-4-color:rgb(108, 92, 231, 0.3);
+    --page-no-5-color:rgb(92, 152, 231, 0.3);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Open Sans', sans-serif;
+}
+.move-left {
+    transform: translateX(-100%);
+}
+.move-top {
+    transform: translateY(-100%);
+}
+@keyframes spinLoader {
+    from {
+        transform:  rotateZ(0);
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
